@@ -1,6 +1,8 @@
 PODS:
-  - Permission/Core (2.0.3)
-  - Permission/Location (2.0.3):
+  - Permission (2.0.4):
+    - Permission/Core (= 2.0.4)
+  - Permission/Core (2.0.4)
+  - Permission/Location (2.0.4):
     - Permission/Core
   - RxPermission/Core (1.0.0):
     - Permission/Core
@@ -8,20 +10,32 @@ PODS:
   - RxPermission/Location (1.0.0):
     - Permission/Location
     - RxPermission/Core
-  - RxSwift (3.1.0)
+  - RxSwift (5.0.0)
 
 DEPENDENCIES:
+  - Permission (from `https://github.com/systembugtj/Permission.git`)
   - RxPermission/Location (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxSwift
+
 EXTERNAL SOURCES:
+  Permission:
+    :git: https://github.com/systembugtj/Permission.git
   RxPermission:
     :path: "../"
 
+CHECKOUT OPTIONS:
+  Permission:
+    :commit: d312c04e03777121672b0877f7e78f1387c776c2
+    :git: https://github.com/systembugtj/Permission.git
+
 SPEC CHECKSUMS:
-  Permission: ef50195e97672de1946f98da7fd71fbfbcf9c23f
-  RxPermission: e0cc69f4255b0e1c333a5da8d53cdb62cda8c9f3
-  RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
+  Permission: c53c7235f14d76cd2851364df0a7cf05b464037f
+  RxPermission: 34f2f8b2762240e630f36fec404f2ef75c212a59
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
 
-PODFILE CHECKSUM: 0866b303d616d0f589243606a355243292262a92
+PODFILE CHECKSUM: 392e686592ef5da795446439942bd170a03eca71
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.7.5
