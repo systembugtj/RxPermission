@@ -1,4 +1,6 @@
+platform :ios, '10.0'
 use_frameworks!
+swift_version = "5.0"
 
 target 'RxPermission_Example' do
   pod 'RxPermission/Location', :path => '../'

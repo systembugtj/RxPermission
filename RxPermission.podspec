@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/sunshinejr/RxPermission"
   s.license          = 'MIT'
   s.author           = { "Łukasz Mróz" => "thesunshinejr@gmail.com" }
-  s.source           = { :git => "https://github.com/sunshinejr/RxPermission.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/systembugtj/RxPermission.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/thesunshinejr'
-  s.platform     = :ios, '8.0'
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '10.0'
+  s.ios.deployment_target = '10.0'
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'Source/*.swift'    
